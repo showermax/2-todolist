@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="todolist 2nd lesson preparing">
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="checking the commits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +80,7 @@
       <updated>1678092153500</updated>
       <workItem from="1678092154732" duration="7406000" />
       <workItem from="1678115524471" duration="881000" />
-      <workItem from="1678117642312" duration="4417000" />
+      <workItem from="1678117642312" duration="4743000" />
     </task>
     <task id="LOCAL-00001" summary="todolist 2nd lesson preparing">
       <created>1678098759505</created>
@@ -91,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678098759505</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="index deleted strickedmode">
+      <created>1678122685157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678122685157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="checking the commits">
+      <created>1678122754741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678122754741</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +112,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="todolist 2nd lesson preparing" />
-    <option name="LAST_COMMIT_MESSAGE" value="todolist 2nd lesson preparing" />
+    <MESSAGE value="index deleted strickedmode" />
+    <MESSAGE value="checking the commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking the commits" />
   </component>
 </project>
