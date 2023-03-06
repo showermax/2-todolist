@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="checking the commits">
+    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="filtering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
@@ -84,7 +84,7 @@
       <updated>1678092153500</updated>
       <workItem from="1678092154732" duration="7406000" />
       <workItem from="1678115524471" duration="881000" />
-      <workItem from="1678117642312" duration="8785000" />
+      <workItem from="1678117642312" duration="10273000" />
     </task>
     <task id="LOCAL-00001" summary="todolist 2nd lesson preparing">
       <created>1678098759505</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678122893684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="filtering">
+      <created>1678129505556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678129505556</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +132,7 @@
     <MESSAGE value="todolist 2nd lesson preparing" />
     <MESSAGE value="index deleted strickedmode" />
     <MESSAGE value="checking the commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking the commits" />
+    <MESSAGE value="filtering" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtering" />
   </component>
 </project>

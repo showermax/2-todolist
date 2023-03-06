@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {Todolist} from './Todolist';
+import {FilterType, Todolist} from './Todolist';
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
     ]
     )
     const [filter, setFilter] = useState("All")
+
     const removeTask = (id:number)=>{
         tasks1 = tasks1.filter(el=> el.id!==id)
         setTask(tasks1)
@@ -22,9 +23,10 @@ function App() {
     if (filter === "Active")  {filteredTasks = tasks1.filter(el => el.isDone === false)}
     if (filter === "Completed")  {filteredTasks = tasks1.filter(el => el.isDone === true)}
 
-    function filtering(filter:string) {
+    function filtering(filter: FilterType) {
         setFilter(filter)
     }
+
     return (
         <div className="App">
             <Todolist title="What to learn" tasks={filteredTasks} remove={removeTask} filtering={filtering}/>
