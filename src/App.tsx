@@ -12,16 +12,22 @@ function App() {
         { id: 5, title: "To surf", isDone: false }
     ]
     )
-
+    const [filter, setFilter] = useState("All")
     const removeTask = (id:number)=>{
         tasks1 = tasks1.filter(el=> el.id!==id)
         setTask(tasks1)
         console.log(tasks1)
     }
+    let filteredTasks = tasks1
+    if (filter === "Active")  {filteredTasks = tasks1.filter(el => el.isDone === false)}
+    if (filter === "Completed")  {filteredTasks = tasks1.filter(el => el.isDone === true)}
 
+    function filtering(filter:string) {
+        setFilter(filter)
+    }
     return (
         <div className="App">
-            <Todolist title="What to learn" tasks={tasks1} remove={removeTask}/>
+            <Todolist title="What to learn" tasks={filteredTasks} remove={removeTask} filtering={filtering}/>
         </div>
     );
 }
