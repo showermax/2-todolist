@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="filtering">
+    <list default="true" id="8b02c466-cdde-40e8-8d91-f90fbd807818" name="Changes" comment="typization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <updated>1678092153500</updated>
       <workItem from="1678092154732" duration="7406000" />
       <workItem from="1678115524471" duration="881000" />
-      <workItem from="1678117642312" duration="10273000" />
+      <workItem from="1678117642312" duration="11973000" />
     </task>
     <task id="LOCAL-00001" summary="todolist 2nd lesson preparing">
       <created>1678098759505</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678129505556</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="typization">
+      <created>1678130919757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678130919757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +138,7 @@
     <MESSAGE value="index deleted strickedmode" />
     <MESSAGE value="checking the commits" />
     <MESSAGE value="filtering" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtering" />
+    <MESSAGE value="typization" />
+    <option name="LAST_COMMIT_MESSAGE" value="typization" />
   </component>
 </project>
