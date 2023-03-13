@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useRef} from 'react';
 
 export type FilterType = "All"|"Active"|"Completed"
 
-type TaskType = {
-    id: number
+export type TaskType = {
+    id: string
     title: string
     isDone: boolean
 }
@@ -11,16 +11,20 @@ type TaskType = {
 type PropsType = {
     title: string
     tasks: Array<TaskType>
-    remove: (id:number) => void
-    filtering: (filter: FilterType) => void
+    remove: (id:string) => void
+    filtering: (filter: FilterType  ) => void
+    add: (n: string) => void
 }
 
 export function Todolist(props: PropsType) {
+
+    const addTaskInputRef = useRef<any>(null)
+
     return <div>
         <h3>{props.title}</h3>
         <div>
-            <input/>
-            <button>del</button>
+            <input ref={addTaskInputRef} />
+            <button onClick={()=>props.add(addTaskInputRef.current.value)}>add</button>
         </div>
         <ul>
             {props.tasks.map(el => <li key={el.id}>
